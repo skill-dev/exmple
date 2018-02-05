@@ -1,0 +1,350 @@
+/*************************************
+
+Template Name: Atown - Atown Responsive HTML Template
+Author: zebtheme
+Version: 1.0
+Design and Developed by: zwebtheme
+
+NOTE: This is common stylesheet of the template.
+
+****************************************/
+
+.modal-content {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    margin-top: 100px;
+}
+.modal-content iframe {border: 5px solid #fd736c;}
+
+.gray-bg {
+    background-color: #f7f7f9;
+}
+
+.text-white a,
+.text-white {
+    color: #ffffff;
+}
+
+.line {
+    border-bottom: 3px solid #fd746c;
+}
+.white-line {border-bottom: 3px solid #fff;}
+.line {
+    display: block;
+    margin: 15px auto;
+    position: relative;
+    width: 80px;
+}
+/*
+* ----------------------------------------------------------------------------------------
+* 01.SECTION TITLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title h3 {
+    font-size: 34px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+    text-transform: uppercase;
+    color: #414a55;
+}
+
+.section-title .line {
+    display: block;
+    margin: 15px auto;
+    position: relative;
+    width: 80px;
+    border-bottom: 3px solid #fd746c;
+}
+
+.section-title p {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 660px;
+}
+
+.section-title2 {}
+.section-title2 h3{
+    font-size: 34px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+}
+.section-title2 .line{margin-left: 0px;}
+
+.st-left {text-align: left;}
+.st-center {text-align: center;}
+.st-right {text-align: right;}
+
+.st-white {color: #fff; border-color: #fff;}
+.st-gray{color: #414a55;border-color: #fd746c;}
+.st-black{color: #000;border-color: #fd746c;}
+
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 02.SECTION PADDING
+* ----------------------------------------------------------------------------------------
+*/
+.section-padding {
+    padding: 100px 0;
+}
+
+.subscrie-form .form-control {
+    background: transparent;
+    padding: 0 20px;
+    min-height: 45px;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.subscrie-form .btn {
+    min-width: 150px;
+    min-height: 45px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.subscrie-form .btn i{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.subscrie-form .btn:hover{
+    color: #fd746c;
+    background: #fff;
+
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 02.BTN
+* ----------------------------------------------------------------------------------------
+*/
+.btn-icon {
+    padding: 12px 0 12px 50px;
+    position: relative;
+}
+
+.btn-icon:hover {
+    color: #ffffff;
+}
+
+.btn-icon span {
+    background-color: #2fccd0;
+    border: 1px solid;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 0 rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    left: 0;
+    line-height: 2.3;
+    margin-right: 10px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 40px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.btn-icon:hover span {
+    background-color: #ffffff;
+    color: #2fccd0;
+}
+
+.btn {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    min-height: 40px;
+}
+
+.btn.white-btn {
+    border: 0px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    min-width: 150px;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: none;
+
+
+    background: #fd736c;
+    background: -moz-linear-gradient(top, #fd736c 0%, #e85651 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #fd736c), color-stop(100%, #e85651));
+    background: -webkit-linear-gradient(top, #fd736c 0%, #e85651 100%);
+    background: -o-linear-gradient(top, #fd736c 0%, #e85651 100%);
+    background: -ms-linear-gradient(top, #fd736c 0%, #e85651 100%);
+    background: linear-gradient(to bottom, #fd736c 0%, #e85651 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd736c', endColorstr='#e85651', GradientType=0 );
+
+}
+.btn.white-btn:hover{
+   background: #fd736c;
+    background: -moz-linear-gradient(top, #fd736c 0%, #e85651 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #fd736c), color-stop(100%, #e85651));
+    background: -webkit-linear-gradient(top, #fd736c 0%, #e85651 100%);
+    background: -o-linear-gradient(top, #fd736c 0%, #e85651 100%);
+    background: -ms-linear-gradient(top, #fd736c 0%, #e85651 100%);
+    background: linear-gradient(to bottom, #fd736c 0%, #e85651 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd736c', endColorstr='#e85651', GradientType=0 );
+    color: #fff;
+    border: 0px solid #fd746c;
+    box-shadow: none;
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
+.btn.btn-link {
+    border: 1px solid #fd746c;
+    color: #fd746c;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    min-width: 150px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn.btn-link:hover,
+.price-table.active .btn.btn-link {
+    background: #fd746c;
+    box-shadow: none;
+    color: #ffffff;
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+.price-table .btn.btn-link {border-color: #ff9068;color: #ff9068;}
+.price-table .btn.btn-link i{color: #ff9068;font-size: 16px;margin-right: 6px;}
+.price-table.active .btn.btn-link i{color: #fff;font-size: 16px;margin-right: 6px;}
+
+.btn.btn-fill {
+    background: #fd746c;
+    border-radius: 0px;
+    box-shadow: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 8px 20px;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.btn.btn-fill:hover {
+    background: #ff9068;
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.big-button {
+    display: inline-block;
+    min-width: 180px;
+    padding: 6px 30px 6px 60px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.big-button .big-button-icon {
+    left: 25px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.big-button.aligncenter {
+    display: block;
+    margin: auto;
+    width: 180px;
+}
+
+.big-button:hover {
+    box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    background: #e3724d;
+background: -moz-linear-gradient(top, #e3724d 0%, #e3724d 50%, #db3833 51%, #db3833 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #e3724d), color-stop(50%, #e3724d), color-stop(51%, #db3833), color-stop(100%, #db3833));
+background: -webkit-linear-gradient(top, #e3724d 0%, #e3724d 50%, #db3833 51%, #db3833 100%);
+background: -o-linear-gradient(top, #e3724d 0%, #e3724d 50%, #db3833 51%, #db3833 100%);
+background: -ms-linear-gradient(top, #e3724d 0%, #e3724d 50%, #db3833 51%, #db3833 100%);
+background: linear-gradient(to bottom, #e3724d 0%, #e3724d 50%, #db3833 51%, #db3833 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3724d', endColorstr='#db3833', GradientType=0 );
+}
+
+.big-button:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.6);
+    color: #ffffff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    background: #ff9068;
+background: -moz-linear-gradient(top, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff9068), color-stop(50%, #ff9068), color-stop(51%, #fd736c), color-stop(100%, #fd736c));
+background: -webkit-linear-gradient(top, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
+background: -o-linear-gradient(top, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
+background: -ms-linear-gradient(top, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
+background: linear-gradient(to bottom, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9068', endColorstr='#fd736c', GradientType=0 );
+    
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.big-button:hover:after {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.6);
+    color: #ffffff;
+    background: #e3724d;
+background: -moz-linear-gradient(top, #e3724d 0%, #e3724d 50%, #db3833 51%, #db3833 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #e3724d), color-stop(50%, #e3724d), color-stop(51%, #db3833), color-stop(100%, #db3833));
+background: -webkit-linear-gradient(top, #e3724d 0%, #e3724d 50%, #db3833 51%, #db3833 100%);
+background: -o-linear-gradient(top, #e3724d 0%, #e3724d 50%, #db3833 51%, #db3833 100%);
+background: -ms-linear-gradient(top, #e3724d 0%, #e3724d 50%, #db3833 51%, #db3833 100%);
+background: linear-gradient(to bottom, #e3724d 0%, #e3724d 50%, #db3833 51%, #db3833 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3724d', endColorstr='#db3833', GradientType=0 );
+}
+
+
+
+
+ul.box-style {list-style-type: none;padding-left: 10px;}
+ul.box-style li {margin: 7px 0;padding: 0;}
+ul.box-style li span{font-size: 13px; padding-right: 7px;}
+ul.box-style li:hover,
+ul.box-style li:hover span{ color: #e3724d; }

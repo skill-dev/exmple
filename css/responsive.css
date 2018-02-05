@@ -1,0 +1,129 @@
+
+/*
+* ----------------------------------------------------------------------------------------
+* 01.START HOME DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+@media only screen and (max-width:768px) {
+    .hero-bg {
+        height: 948px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .hero-bg {
+        height: 1150px;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .hero-bg {
+        height: 1150px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .hero-bg {
+        height: 1150px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .hero-bg {
+        height: 1100px;
+    }
+    .inner_page {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .hero-bg {
+        height: 1100px;
+    }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 01.END HOME DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #mainmenu ul.nav.navbar-nav li a {
+        padding: 20px 10px;
+    }
+    .top100 {margin-top: 0px;}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .mainmenu-area {
+        background: #ff9068;
+background: -moz-linear-gradient(top, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff9068), color-stop(50%, #ff9068), color-stop(51%, #fd736c), color-stop(100%, #fd736c));
+background: -webkit-linear-gradient(top, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
+background: -o-linear-gradient(top, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
+background: -ms-linear-gradient(top, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
+background: linear-gradient(to bottom, #ff9068 0%, #ff9068 50%, #fd736c 51%, #fd736c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9068', endColorstr='#fd736c', GradientType=0 );
+    }
+    .mainmenu-area .navbar-toggle {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        border: 1px solid #fff;
+        border-radius: 1px;
+        padding: 10px;
+        -webkit-transition: 0.3s;
+        transition: 0.3s
+    }
+    .mainmenu-area .navbar-toggle .icon-bar {
+        background-color: #fff;
+        -webkit-transition: 0.3s;
+        transition: 0.3s
+    }
+    .mainmenu-area .navbar-toggle:focus,
+    .mainmenu-area .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .mainmenu-area .navbar-toggle:focus .icon-bar,
+    .mainmenu-area .navbar-toggle:hover .icon-bar {
+        background-color: #fff;
+    }
+    .well.well-lg {
+        padding: 30px;
+    }
+    #mainmenu ul.nav.navbar-nav li a {
+        text-align: center;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
